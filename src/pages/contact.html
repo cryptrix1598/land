@@ -1,0 +1,129 @@
+<header class="phead">
+  <div class="phead__glow" aria-hidden="true"></div>
+  <div class="wrap phead__in">
+    <p class="crumb"><a href="index.html">Home</a> <span aria-hidden="true">/</span> <span>Contact</span></p>
+    <p class="eyebrow" data-reveal>Get in touch</p>
+    <h1 class="display d1" data-split>Let&rsquo;s look at<br>the <em>property</em>.</h1>
+    <p class="lede" data-reveal>Call anytime &mdash; we&rsquo;re open 24 hours &mdash; or send the details below and we&rsquo;ll get back to you same-day.</p>
+  </div>
+</header>
+
+<section class="band" style="border-top:1px solid var(--line)">
+  <div class="wrap" style="display:grid;gap:56px">
+    <div class="sechead--split" style="display:grid">
+      <div>
+        <p class="eyebrow" data-reveal>Request an estimate</p>
+        <h2 class="display d3" data-split style="margin-bottom:24px">Tell us about the job.</h2>
+        <form class="form" id="estimate" novalidate>
+          <div class="field--half">
+            <div class="field">
+              <label for="name">Full name</label>
+              <input id="name" name="name" type="text" autocomplete="name" required placeholder="Jane Doe">
+              <p class="field__err">Please enter your name.</p>
+            </div>
+            <div class="field">
+              <label for="phone">Phone</label>
+              <input id="phone" name="phone" type="tel" autocomplete="tel" required placeholder="(860) 555-0100">
+              <p class="field__err">Please enter a phone number.</p>
+            </div>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required placeholder="jane@email.com">
+            <p class="field__err">Please enter a valid email.</p>
+          </div>
+          <div class="field">
+            <label for="service">Service needed</label>
+            <select id="service" name="service" required>
+              <option value="">Choose one&hellip;</option>
+              <option>Landscaping &amp; grounds</option>
+              <option>Contracting &amp; handyman</option>
+              <option>Snow &amp; ice removal</option>
+              <option>Seasonal cleanup</option>
+              <option>Not sure &mdash; let&rsquo;s talk</option>
+            </select>
+            <p class="field__err">Please choose a service.</p>
+          </div>
+          <div class="field">
+            <label for="address">Property address</label>
+            <input id="address" name="address" type="text" autocomplete="street-address" placeholder="Street, town">
+          </div>
+          <div class="field">
+            <label for="message">Tell us about the job</label>
+            <textarea id="message" name="message" placeholder="Size of the property, timing, anything we should know&hellip;"></textarea>
+          </div>
+          <div class="btn-row">
+            <button class="btn btn--primary btn--lg" type="submit">
+              Send request
+              <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-arrow"></use></svg>
+            </button>
+          </div>
+          <p class="form__note">We&rsquo;ll reply by phone or email, usually the same day. No spam, no shared lists.</p>
+        </form>
+        <div class="form__ok" role="status">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-check"></use></svg>
+          <p><strong>Thanks &mdash; that&rsquo;s in.</strong> We&rsquo;ll be in touch shortly, usually within the day.</p>
+        </div>
+      </div>
+      <div>
+        <p class="eyebrow" data-reveal>Direct lines</p>
+        <div style="margin-top:20px">
+          <div class="crow">
+            <span class="crow__ico" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-phone"></use></svg></span>
+            <span class="crow__b"><span class="crow__k">Call or text</span><a class="crow__v" href="tel:+18607682193">(860) 768-2193</a></span>
+          </div>
+          <div class="crow">
+            <span class="crow__ico" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-mail"></use></svg></span>
+            <span class="crow__b"><span class="crow__k">Email</span><a class="crow__v ph" href="mailto:[YOUR EMAIL]">[YOUR EMAIL]</a></span>
+          </div>
+          <div class="crow">
+            <span class="crow__ico" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-clock"></use></svg></span>
+            <span class="crow__b"><span class="crow__k">Hours</span><span class="crow__v">Open 24 hours</span></span>
+          </div>
+          <div class="crow">
+            <span class="crow__ico" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-pin"></use></svg></span>
+            <span class="crow__b"><span class="crow__k">Service area</span><span class="crow__v ph">[SERVICE AREA TOWNS]</span></span>
+          </div>
+        </div>
+        <div style="margin-top:32px;padding-top:28px;border-top:1px solid var(--line)">
+          <p class="eyebrow" data-reveal style="margin-bottom:14px">Rated by the neighbourhood</p>
+          <div class="rating">
+            <span class="rating__stars" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-star"></use></svg><svg viewBox="0 0 24 24"><use href="#i-star"></use></svg><svg viewBox="0 0 24 24"><use href="#i-star"></use></svg><svg viewBox="0 0 24 24"><use href="#i-star"></use></svg><svg viewBox="0 0 24 24"><use href="#i-star"></use></svg></span>
+            <span class="rating__txt"><b>4.9</b> from 11 Google reviews</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band band--tight" aria-labelledby="faq-h" style="border-top:1px solid var(--line)">
+  <div class="wrap wrap--narrow">
+    <div class="sechead">
+      <p class="eyebrow" data-reveal>Before you call</p>
+      <h2 id="faq-h" class="display d2" data-split>A few things<br>people ask.</h2>
+    </div>
+    <div class="faq">
+      <div class="faq__item">
+        <button class="faq__q" aria-expanded="true" aria-controls="f1">How fast can you get to a job?</button>
+        <div class="faq__a" id="f1" data-open="true"><div><p>Most calls get a same-day response. For snow removal during an active storm, standing accounts get priority routing.</p></div></div>
+      </div>
+      <div class="faq__item">
+        <button class="faq__q" aria-expanded="false" aria-controls="f2">Do you offer seasonal contracts?</button>
+        <div class="faq__a" id="f2" data-open="false"><div><p>Yes &mdash; for both landscaping (weekly or bi-weekly routes) and snow removal (seasonal plow contracts). Ask about pricing when you call.</p></div></div>
+      </div>
+      <div class="faq__item">
+        <button class="faq__q" aria-expanded="false" aria-controls="f3">What towns do you serve?</button>
+        <div class="faq__a" id="f3" data-open="false"><div><p><span class="ph">[SERVICE AREA TOWNS]</span> &mdash; if you&rsquo;re unsure whether you&rsquo;re in range, just call and ask.</p></div></div>
+      </div>
+      <div class="faq__item">
+        <button class="faq__q" aria-expanded="false" aria-controls="f4">Are you licensed and insured?</button>
+        <div class="faq__a" id="f4" data-open="false"><div><p>Yes. Green Man&rsquo;s Contracting &amp; Landscaping LLC carries <span class="ph">[INSURANCE / HIC DETAILS]</span> &mdash; happy to provide documentation on request.</p></div></div>
+      </div>
+      <div class="faq__item">
+        <button class="faq__q" aria-expanded="false" aria-controls="f5">How do I pay for a job?</button>
+        <div class="faq__a" id="f5" data-open="false"><div><p><span class="ph">[ACCEPTED PAYMENT METHODS]</span>. We&rsquo;ll go over pricing and payment before any work starts.</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
